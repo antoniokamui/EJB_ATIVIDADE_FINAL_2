@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="Ativ_ECommerceServlet" method="post">
+	<form action="Ativ_EComServlet" method="post">
 		<input name="data" type="date" placeholder="Data"/><br/><br/>
 		<input name="titulo" type="text" placeholder="Titulo"/><br/><br/>
 		<input name="assunto" type="text" placeholder="Assunto"/><br/><br/>

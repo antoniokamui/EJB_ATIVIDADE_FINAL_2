@@ -33,7 +33,7 @@ public class AtivComentarioProdutoEndPointSoapBindingStub extends Stub implement
 	        OperationDesc oper;
 	        ParameterDesc param;
 	        oper = new OperationDesc();
-	        oper.setName("listaComentariosProduto");
+	        oper.setName("listarComentariosProduto");
 	        oper.setReturnType(new QName("http://webservice.fiap.com.br/", "comentarioProduto"));
 	        oper.setReturnClass(ComentarioProduto[].class);
 	        oper.setReturnQName(new QName("", "return"));
@@ -167,7 +167,7 @@ public class AtivComentarioProdutoEndPointSoapBindingStub extends Stub implement
 	        call.setProperty(org.apache.axis.client.Call.SEND_TYPE_ATTR, Boolean.FALSE);
 	        call.setProperty(org.apache.axis.AxisEngine.PROP_DOMULTIREFS, Boolean.FALSE);
 	        call.setSOAPVersion(org.apache.axis.soap.SOAPConstants.SOAP11_CONSTANTS);
-	        call.setOperationName(new javax.xml.namespace.QName("http://webservice.fiap.com.br/", "listaComentariosProduto"));
+	        call.setOperationName(new javax.xml.namespace.QName("http://webservice.fiap.com.br/", "listarComentariosProduto"));
 
 	        setRequestHeaders(call);
 	        setAttachments(call);

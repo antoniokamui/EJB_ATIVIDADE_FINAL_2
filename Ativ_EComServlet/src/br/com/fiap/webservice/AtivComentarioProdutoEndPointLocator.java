@@ -11,7 +11,12 @@ import org.apache.axis.client.Stub;
 
 public class AtivComentarioProdutoEndPointLocator  extends Service implements AtivComentarioProdutoEndPoint {
 
-    public AtivComentarioProdutoEndPointLocator() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public AtivComentarioProdutoEndPointLocator() {
     }
 
 
@@ -24,7 +29,7 @@ public class AtivComentarioProdutoEndPointLocator  extends Service implements At
     }
 
     // Use to get a proxy class for ComentarioEndpointPort
-    private String AtivComentarioProdutoEndpointPort_address = "http://localhost:8080/Ativ_ECommerceJSF/AtivComentarioProdutoEndPoint/AtivComentarioProdutoEndpoint";
+    private String AtivComentarioProdutoEndpointPort_address = "http://localhost:8080/Ativ_EComJSF/AtivComentarioProdutoEndPoint/AtivComentarioProdutoEndpoint";
 
     public String getAtivComentarioProdutoEndpointPortAddress() {
         return AtivComentarioProdutoEndpointPort_address;
