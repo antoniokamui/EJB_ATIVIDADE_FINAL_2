@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Atividade EJB</title>
 </head>
 <body>
-	<form action="Ativ_EComServlet" method="post">
+	<form action="ComentarioProdutoServlet" method="post">
 		<input name="data" type="date" placeholder="Data"/><br/><br/>
 		<input name="titulo" type="text" placeholder="Titulo"/><br/><br/>
 		<input name="assunto" type="text" placeholder="Assunto"/><br/><br/>
-		<input name="comentario" type="text" placeholder="Comentario"/><br/><br/>
+		<input name="comentarioProduto" type="text" placeholder="Comentario"/><br/><br/>
 		<input name="avaliacao" type="number" placeholder="Avaliação"/><br/><br/>
 		<input type="submit" value="Salva"></input><br/><br/>
 		<input type="reset" value="Limpar"></input>	
